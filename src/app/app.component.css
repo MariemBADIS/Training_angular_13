@@ -1,0 +1,14 @@
+.styleGenerique {
+  margin-bottom: 15px;
+  margin-top: 15px
+}
+
+.colorStyleOdd {
+  background: aqua;
+  border: 1px solid #8ac9c9;
+}
+
+.colorStyleEven {
+  background: #be156b;
+  border: 1px solid #7a1548;
+}

@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ex1';
+
+  public secretPassword = 'mariam';
+  public displayPassword = false;
+  public servers = ["T1", "T2"];
+  public displayDetails() {
+    this.servers.push("serverAdd");
+    this.displayPassword = !this.displayPassword;
+  }
 }
